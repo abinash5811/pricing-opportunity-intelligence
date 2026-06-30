@@ -1,0 +1,201 @@
+customer_id,customer_name,region,industry,segment,current_seats,seat_utilization_percent
+1,Customer_1,North America,Technology,SMB,2303,55
+2,Customer_2,EMEA,Finance,SMB,889,83
+3,Customer_3,North America,Retail,Mid-Market,310,41
+4,Customer_4,North America,Finance,Enterprise,4189,78
+5,Customer_5,North America,Retail,Enterprise,4514,66
+6,Customer_6,EMEA,Education,SMB,2328,91
+7,Customer_7,North America,Finance,SMB,3512,61
+8,Customer_8,APAC,Finance,Enterprise,2807,46
+9,Customer_9,North America,Education,Enterprise,2990,94
+10,Customer_10,APAC,Retail,Mid-Market,405,86
+11,Customer_11,LATAM,Retail,Enterprise,3150,45
+12,Customer_12,APAC,Retail,Mid-Market,4779,52
+13,Customer_13,North America,Technology,SMB,1916,89
+14,Customer_14,APAC,Technology,Enterprise,877,64
+15,Customer_15,APAC,Education,SMB,3038,50
+16,Customer_16,APAC,Healthcare,Enterprise,2237,84
+17,Customer_17,North America,Retail,SMB,1451,74
+18,Customer_18,EMEA,Finance,Mid-Market,3158,57
+19,Customer_19,EMEA,Healthcare,Enterprise,1926,92
+20,Customer_20,North America,Healthcare,Mid-Market,2243,44
+21,Customer_21,EMEA,Retail,SMB,2627,53
+22,Customer_22,LATAM,Education,SMB,3808,49
+23,Customer_23,APAC,Finance,Enterprise,4648,74
+24,Customer_24,APAC,Retail,Mid-Market,4830,65
+25,Customer_25,APAC,Finance,Enterprise,4224,71
+26,Customer_26,North America,Technology,Enterprise,1302,80
+27,Customer_27,EMEA,Education,SMB,570,64
+28,Customer_28,LATAM,Retail,Mid-Market,4384,56
+29,Customer_29,North America,Technology,SMB,4448,88
+30,Customer_30,APAC,Healthcare,Enterprise,2454,67
+31,Customer_31,EMEA,Education,Enterprise,2207,72
+32,Customer_32,EMEA,Retail,Enterprise,2494,93
+33,Customer_33,EMEA,Finance,Mid-Market,1373,74
+34,Customer_34,North America,Retail,Mid-Market,4052,41
+35,Customer_35,North America,Healthcare,Mid-Market,2011,43
+36,Customer_36,EMEA,Retail,Enterprise,751,86
+37,Customer_37,LATAM,Technology,SMB,1080,48
+38,Customer_38,LATAM,Retail,Enterprise,2221,73
+39,Customer_39,LATAM,Finance,SMB,1697,85
+40,Customer_40,APAC,Education,SMB,3109,68
+41,Customer_41,LATAM,Technology,Enterprise,1890,44
+42,Customer_42,APAC,Technology,SMB,4587,54
+43,Customer_43,EMEA,Technology,Enterprise,532,54
+44,Customer_44,North America,Technology,Mid-Market,630,72
+45,Customer_45,EMEA,Healthcare,SMB,4026,53
+46,Customer_46,EMEA,Retail,SMB,3922,55
+47,Customer_47,LATAM,Education,Enterprise,822,46
+48,Customer_48,LATAM,Healthcare,Mid-Market,3417,69
+49,Customer_49,North America,Technology,Enterprise,3348,86
+50,Customer_50,APAC,Technology,Enterprise,1619,52
+51,Customer_51,LATAM,Finance,Mid-Market,1553,57
+52,Customer_52,LATAM,Finance,Enterprise,3680,91
+53,Customer_53,North America,Technology,SMB,4478,93
+54,Customer_54,North America,Technology,Enterprise,1412,66
+55,Customer_55,LATAM,Education,Enterprise,3335,97
+56,Customer_56,North America,Finance,Mid-Market,67,64
+57,Customer_57,APAC,Education,Mid-Market,3515,84
+58,Customer_58,LATAM,Finance,Enterprise,2480,53
+59,Customer_59,North America,Retail,SMB,4491,43
+60,Customer_60,APAC,Technology,Enterprise,4835,70
+61,Customer_61,EMEA,Technology,SMB,706,94
+62,Customer_62,EMEA,Technology,SMB,606,83
+63,Customer_63,EMEA,Education,Enterprise,4716,55
+64,Customer_64,North America,Retail,Enterprise,3484,82
+65,Customer_65,APAC,Healthcare,Enterprise,2623,55
+66,Customer_66,APAC,Education,Enterprise,2507,69
+67,Customer_67,APAC,Technology,Enterprise,3804,79
+68,Customer_68,North America,Technology,SMB,1796,72
+69,Customer_69,APAC,Finance,Mid-Market,613,96
+70,Customer_70,EMEA,Healthcare,Mid-Market,1342,68
+71,Customer_71,APAC,Retail,SMB,4383,40
+72,Customer_72,APAC,Technology,Enterprise,2216,47
+73,Customer_73,North America,Retail,Enterprise,2281,58
+74,Customer_74,EMEA,Healthcare,Enterprise,2212,72
+75,Customer_75,LATAM,Healthcare,Enterprise,806,80
+76,Customer_76,LATAM,Healthcare,Enterprise,79,61
+77,Customer_77,EMEA,Healthcare,Enterprise,3669,75
+78,Customer_78,LATAM,Retail,Enterprise,966,44
+79,Customer_79,EMEA,Retail,Enterprise,3074,77
+80,Customer_80,EMEA,Education,Enterprise,392,59
+81,Customer_81,APAC,Technology,Mid-Market,1770,83
+82,Customer_82,EMEA,Technology,Mid-Market,4636,96
+83,Customer_83,LATAM,Retail,SMB,1316,99
+84,Customer_84,EMEA,Finance,Enterprise,3427,41
+85,Customer_85,EMEA,Healthcare,Mid-Market,2082,57
+86,Customer_86,EMEA,Technology,Mid-Market,367,94
+87,Customer_87,LATAM,Finance,Enterprise,3820,62
+88,Customer_88,APAC,Finance,Enterprise,243,82
+89,Customer_89,EMEA,Education,Mid-Market,2332,95
+90,Customer_90,North America,Healthcare,Mid-Market,4223,65
+91,Customer_91,APAC,Technology,Enterprise,2189,51
+92,Customer_92,APAC,Technology,Enterprise,4937,67
+93,Customer_93,APAC,Healthcare,Mid-Market,4239,47
+94,Customer_94,LATAM,Retail,Enterprise,2136,42
+95,Customer_95,LATAM,Technology,SMB,4460,83
+96,Customer_96,EMEA,Healthcare,Mid-Market,623,100
+97,Customer_97,APAC,Retail,Mid-Market,1070,86
+98,Customer_98,APAC,Retail,Mid-Market,3395,60
+99,Customer_99,LATAM,Healthcare,SMB,1092,52
+100,Customer_100,LATAM,Education,SMB,1475,79
+101,Customer_101,APAC,Education,SMB,53,59
+102,Customer_102,APAC,Finance,Mid-Market,4801,78
+103,Customer_103,APAC,Education,Mid-Market,3672,83
+104,Customer_104,EMEA,Retail,Mid-Market,1440,82
+105,Customer_105,North America,Healthcare,SMB,2795,45
+106,Customer_106,EMEA,Healthcare,Enterprise,1681,49
+107,Customer_107,North America,Technology,Enterprise,3942,79
+108,Customer_108,North America,Education,Mid-Market,4765,52
+109,Customer_109,LATAM,Education,Mid-Market,2048,49
+110,Customer_110,North America,Technology,Mid-Market,1842,51
+111,Customer_111,LATAM,Technology,SMB,2091,98
+112,Customer_112,North America,Education,Enterprise,3856,82
+113,Customer_113,APAC,Education,SMB,4185,67
+114,Customer_114,LATAM,Finance,SMB,3938,68
+115,Customer_115,APAC,Finance,SMB,2321,89
+116,Customer_116,LATAM,Finance,Mid-Market,3653,44
+117,Customer_117,APAC,Finance,Mid-Market,2801,60
+118,Customer_118,North America,Finance,Enterprise,1944,64
+119,Customer_119,EMEA,Finance,Enterprise,3448,66
+120,Customer_120,APAC,Retail,Mid-Market,3456,43
+121,Customer_121,EMEA,Education,Mid-Market,4834,100
+122,Customer_122,North America,Retail,Mid-Market,3957,40
+123,Customer_123,APAC,Healthcare,Mid-Market,3482,74
+124,Customer_124,EMEA,Education,Enterprise,2285,67
+125,Customer_125,LATAM,Technology,Mid-Market,2803,82
+126,Customer_126,LATAM,Finance,Mid-Market,1095,79
+127,Customer_127,North America,Education,SMB,4673,82
+128,Customer_128,North America,Technology,SMB,3561,48
+129,Customer_129,LATAM,Finance,Enterprise,2181,64
+130,Customer_130,APAC,Finance,Mid-Market,2727,61
+131,Customer_131,LATAM,Healthcare,Mid-Market,2116,93
+132,Customer_132,North America,Education,Enterprise,4468,43
+133,Customer_133,APAC,Finance,SMB,612,89
+134,Customer_134,North America,Technology,Enterprise,1683,93
+135,Customer_135,North America,Retail,Enterprise,2004,48
+136,Customer_136,LATAM,Technology,SMB,1835,69
+137,Customer_137,APAC,Healthcare,Enterprise,988,89
+138,Customer_138,EMEA,Healthcare,Enterprise,4790,41
+139,Customer_139,APAC,Retail,SMB,3124,65
+140,Customer_140,EMEA,Technology,SMB,2039,46
+141,Customer_141,APAC,Retail,Enterprise,4686,90
+142,Customer_142,North America,Healthcare,SMB,3559,82
+143,Customer_143,APAC,Technology,SMB,2845,40
+144,Customer_144,LATAM,Education,Enterprise,3601,63
+145,Customer_145,LATAM,Finance,Mid-Market,1492,86
+146,Customer_146,APAC,Retail,SMB,4010,69
+147,Customer_147,LATAM,Retail,Mid-Market,2690,94
+148,Customer_148,EMEA,Technology,Mid-Market,3742,55
+149,Customer_149,LATAM,Retail,SMB,3154,61
+150,Customer_150,North America,Education,Mid-Market,1539,71
+151,Customer_151,EMEA,Healthcare,Mid-Market,2838,57
+152,Customer_152,APAC,Retail,Enterprise,4282,100
+153,Customer_153,EMEA,Technology,Enterprise,3379,71
+154,Customer_154,EMEA,Education,SMB,4070,68
+155,Customer_155,North America,Technology,Mid-Market,1865,65
+156,Customer_156,EMEA,Healthcare,SMB,4814,63
+157,Customer_157,LATAM,Retail,SMB,2866,67
+158,Customer_158,APAC,Healthcare,SMB,3767,57
+159,Customer_159,APAC,Healthcare,Enterprise,1038,86
+160,Customer_160,EMEA,Healthcare,Enterprise,4439,100
+161,Customer_161,EMEA,Finance,Enterprise,4016,57
+162,Customer_162,APAC,Technology,Enterprise,2476,54
+163,Customer_163,APAC,Finance,Mid-Market,165,85
+164,Customer_164,EMEA,Healthcare,Enterprise,496,75
+165,Customer_165,APAC,Finance,SMB,4071,46
+166,Customer_166,North America,Retail,Mid-Market,3895,70
+167,Customer_167,LATAM,Healthcare,Enterprise,470,56
+168,Customer_168,LATAM,Technology,Enterprise,3332,71
+169,Customer_169,North America,Retail,SMB,489,49
+170,Customer_170,EMEA,Retail,Mid-Market,747,55
+171,Customer_171,North America,Retail,Mid-Market,4933,90
+172,Customer_172,EMEA,Retail,Mid-Market,3740,98
+173,Customer_173,LATAM,Healthcare,SMB,3562,59
+174,Customer_174,North America,Retail,SMB,862,100
+175,Customer_175,EMEA,Finance,Mid-Market,715,50
+176,Customer_176,EMEA,Finance,SMB,664,50
+177,Customer_177,North America,Education,Mid-Market,4914,70
+178,Customer_178,APAC,Technology,Enterprise,2410,85
+179,Customer_179,APAC,Education,Enterprise,1962,99
+180,Customer_180,APAC,Retail,SMB,1670,67
+181,Customer_181,North America,Retail,Enterprise,1270,98
+182,Customer_182,APAC,Finance,Enterprise,538,50
+183,Customer_183,APAC,Retail,SMB,4712,98
+184,Customer_184,APAC,Education,Enterprise,3889,84
+185,Customer_185,APAC,Education,Mid-Market,4149,74
+186,Customer_186,LATAM,Education,Enterprise,4949,42
+187,Customer_187,LATAM,Healthcare,SMB,2101,41
+188,Customer_188,North America,Finance,SMB,4762,77
+189,Customer_189,North America,Healthcare,SMB,379,88
+190,Customer_190,EMEA,Education,SMB,3672,98
+191,Customer_191,APAC,Finance,SMB,3620,80
+192,Customer_192,LATAM,Technology,Mid-Market,2900,66
+193,Customer_193,APAC,Healthcare,SMB,906,94
+194,Customer_194,EMEA,Healthcare,Mid-Market,4108,58
+195,Customer_195,LATAM,Retail,Enterprise,3775,45
+196,Customer_196,APAC,Healthcare,Mid-Market,999,89
+197,Customer_197,LATAM,Retail,Enterprise,4494,69
+198,Customer_198,LATAM,Technology,Enterprise,4297,63
+199,Customer_199,LATAM,Education,Enterprise,1717,57
+200,Customer_200,EMEA,Healthcare,Mid-Market,4020,47
