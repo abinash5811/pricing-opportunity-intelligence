@@ -1,0 +1,31 @@
+account_manager_id,account_manager_name,manager_region,role_title
+1,Account Manager 1,North America,AE
+2,Account Manager 2,APAC,AE
+3,Account Manager 3,EMEA,AE
+4,Account Manager 4,North America,Sales Manager
+5,Account Manager 5,North America,Sales Manager
+6,Account Manager 6,LATAM,AE
+7,Account Manager 7,North America,AE
+8,Account Manager 8,EMEA,AE
+9,Account Manager 9,North America,Sales Manager
+10,Account Manager 10,EMEA,Sales Manager
+11,Account Manager 11,LATAM,AE
+12,Account Manager 12,LATAM,Sales Manager
+13,Account Manager 13,APAC,AE
+14,Account Manager 14,EMEA,Sales Manager
+15,Account Manager 15,LATAM,Senior AE
+16,Account Manager 16,APAC,AE
+17,Account Manager 17,EMEA,Senior AE
+18,Account Manager 18,North America,AE
+19,Account Manager 19,LATAM,AE
+20,Account Manager 20,APAC,Senior AE
+21,Account Manager 21,APAC,AE
+22,Account Manager 22,LATAM,Sales Manager
+23,Account Manager 23,North America,Senior AE
+24,Account Manager 24,North America,Sales Manager
+25,Account Manager 25,APAC,Sales Manager
+26,Account Manager 26,APAC,Sales Manager
+27,Account Manager 27,EMEA,Sales Manager
+28,Account Manager 28,North America,AE
+29,Account Manager 29,EMEA,Senior AE
+30,Account Manager 30,North America,AE

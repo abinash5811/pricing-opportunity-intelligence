@@ -1,0 +1,4 @@
+contract_type_id,contract_type_name,description
+1,Annual,One year contract
+2,Multi-Year,Two or three year contract
+3,Trial,Short trial contract

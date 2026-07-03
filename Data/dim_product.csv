@@ -1,0 +1,6 @@
+product_id,product_name,product_family,package_type,list_price
+1,Learning Pro,Learning,Pro,12000
+2,Learning Enterprise,Learning,Enterprise,25000
+3,Recruiter Pro,Recruiting,Pro,18000
+4,Sales Navigator,Sales,Enterprise,22000
+5,Marketing Advanced,Marketing,Enterprise,30000
