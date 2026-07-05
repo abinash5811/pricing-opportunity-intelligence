@@ -1,0 +1,15 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Generated Reports
+reports/*.txt
+reports/*.xlsx
+reports/*.pdf
+
+# OS files
+.DS_Store
+Thumbs.db
+
+
+
