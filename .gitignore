@@ -11,5 +11,7 @@ reports/*.pdf
 .DS_Store
 Thumbs.db
 
+*.twbr
+~tableau*
 
 
