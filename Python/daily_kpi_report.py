@@ -28,6 +28,36 @@ def get_value(query):
     df = pd.read_sql(query, engine)
     return df.iloc[0, 0]
 
+def get_dataframe(query):
+    return pd.read_sql(query, engine)
+product_df = get_dataframe("""
+SELECT *
+FROM vw_product_performance
+ORDER BY total_revenue DESC;
+""")
+
+region_df = get_dataframe("""
+SELECT *
+FROM vw_region_performance
+ORDER BY total_revenue DESC;
+""")
+
+discount_df = get_dataframe("""
+SELECT *
+FROM vw_high_discount_deals;
+""")
+
+renewal_df = get_dataframe("""
+SELECT *
+FROM vw_renewal_risk
+WHERE renewal_status = 'High Risk';
+""")
+
+upsell_df = get_dataframe("""
+SELECT *
+FROM vw_upsell_candidates;
+""")
+
 # ----------------------------
 # KPI Queries
 # ----------------------------
@@ -200,3 +230,36 @@ with open(filename, "w", encoding="utf-8") as f:
     f.write("=" * 70 + "\n")
 
 print(f"\nReport saved to:\n{filename}")
+
+excel_file = REPORT_DIR / f"Daily_KPI_Report_{datetime.now().strftime('%Y%m%d_%H%M%S')}.xlsx"
+
+summary_df = pd.DataFrame({
+    "Metric": [
+        "Business Health",
+        "Health Score",
+        "Total Revenue",
+        "Total Bookings",
+        "Completed Bookings",
+        "Completion Rate",
+        "Average Booking Value"
+    ],
+    "Value": [
+        overall_health,
+        health_score,
+        total_revenue,
+        total_bookings,
+        completed_bookings,
+        f"{completion_rate}%",
+        average_booking
+    ]
+})
+
+with pd.ExcelWriter(excel_file, engine="openpyxl") as writer:
+    summary_df.to_excel(writer, sheet_name="Executive Summary", index=False)
+    product_df.to_excel(writer, sheet_name="Product Performance", index=False)
+    region_df.to_excel(writer, sheet_name="Regional Performance", index=False)
+    discount_df.to_excel(writer, sheet_name="High Discount Deals", index=False)
+    renewal_df.to_excel(writer, sheet_name="Renewal Risk", index=False)
+    upsell_df.to_excel(writer, sheet_name="Upsell Candidates", index=False)
+
+print(f"Excel report saved to:\n{excel_file}")
